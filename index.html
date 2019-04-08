@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+	
+<head>
+		
+	<meta charset="UTF-8"> 
+		
+	<title>form</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container">
+		
+		<form action="/action_page.php">
+			<h2>Vevő adatai</h2>
+			<div class="form-group">
+				<label for="exampleInputEmail1">Cég neve</label>
+				<input class="form-control" type="text" placeholder="Cég neve">
+			</div>
+			<div class="form-group">
+				<label for="exampleInputPassword1">Kontakt neve</label>
+				<input class="form-control" type="text" placeholder="Kontakt neve">
+			</div>
+			<div class="form-group">
+				<label for="exampleInputEmail1">Cím</label>
+				<input class="form-control" type="text" placeholder="Cím">
+			</div>
+			<div class="form-group">
+				<label for="exampleInputEmail1">Telefonszám</label>
+				<input class="form-control" type="text" placeholder="Telefonszám">
+			</div>
+			<h2>Számítógép konfigurációja</h2>
+			<div class="form-group">
+				<label for="exampleInputEmail1">Konfiguráció</label>
+				<input class="form-control" type="text" placeholder="Konfiguráció">
+			</div>
+			<div class="form-group">
+				<label for="exampleInputEmail1">Operációs rendszer</label>
+				<input class="form-control" type="text" placeholder="Operációs rendszer">
+			</div>
+			<div class="form-group">
+				<label for="exampleInputEmail1">Hálózati környezet</label>
+				<input class="form-control" type="text" placeholder="Hálózati környezet">
+			</div>
+			<div class="form-group">
+				<label for="exampleInputEmail1">Kapcsolódás tipúsa</label>
+				<input class="form-control" type="text" placeholder="Kapcsolódás tipúsa">
+			</div>
+			<h2>Probléma leírás</h2>
+			<div class="form-group">
+				<label for="exampleInputEmail1">Egyéni probléma</label>
+				<input class="form-control" type="text" placeholder="Egyéni probléma">
+			</div>
+			Válasszon egyet az alábbiak közül:<br>
+			<input type="radio" name="gender" value="" checked>	Elment az áram <br>
+			<input type="radio" name="gender" value=""> Kikapcsolt a gép <br>
+			<input type="radio" name="gender" value="">   Bekapcsolásnál romlott el<br><br>
+			Hiba üzenet:<br>
+			<input class="form-control" type="text" placeholder="Hiba üzenet">
+			<br>
+			Sípolási sorrend:<br>
+			<input class="form-control" type="text" placeholder="Sípolási sorrend">
+			<br>
+			LED-ek:<br>
+			<input class="form-control" type="text" placeholder="LED-ek">
+			<br>
+			POST:<br>
+			<input class="form-control" type="text" placeholder="POST">
+			<br>
+			<br><br>
+			 <button type="submit" class="btn btn-primary">Submit</button> 
+		</form>
+	</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
